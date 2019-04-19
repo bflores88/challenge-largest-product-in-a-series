@@ -7,7 +7,7 @@ describe("Find The Largest Product of 5 consecutive digits from the given number
   const largestProduct = new LargestProduct(number);
 
   it("should get the largest product position", function () {
-    expect(largestProduct.getLargestProductPosition()).to.equal(995);
+    expect(largestProduct.getLargestProductPosition()).to.equal(364);
   });
 
   it("should get the largest product", function () {
