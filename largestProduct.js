@@ -3,9 +3,7 @@ class LargestProduct {
     this.number = number;
     this.largestProduct = 0;
     this.largestProductPosition = 0;
-  }
 
-  getLargestProductPosition() {
     let numArr = this.number.toString().split('');
     let largestProduct = 0;
     let largestPosition = 0;
@@ -25,7 +23,9 @@ class LargestProduct {
     }
     this.largestProduct = largestProduct;
     this.largestProductPosition = largestPosition;
+  }
 
+  getLargestProductPosition() {
     return this.largestProductPosition;
   }
 
